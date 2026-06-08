@@ -11,3 +11,4 @@ My JavaScript learning journey from basics to advanced.
 - JS6 - Functions Project
 - JS7 - Callbacks
 - JS8 - Promise
+- JS9 - Async/await and Fetch API
