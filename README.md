@@ -13,3 +13,4 @@ My JavaScript learning journey from basics to advanced.
 - JS8 - Promise
 - JS9 - Async/await and Fetch API
 - JS10 - Use of ASync/await and DOM
+- JS11 - Try and Catch
