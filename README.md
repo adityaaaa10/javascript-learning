@@ -1,6 +1,6 @@
 # JavaScript Learning
 
-My JavaScript learning journey from basics to advanced.
+My JavaScript learning journey from basics to advanced for webdev.
 
 ## Topics Covered
 - JS1 - Variables and Data Types 
@@ -15,3 +15,4 @@ My JavaScript learning journey from basics to advanced.
 - JS10 - Use of ASync/await and DOM
 - JS11 - Try and Catch
 - JS12 - Class and Structure
+- JS13 - IIFE,Destructuring
