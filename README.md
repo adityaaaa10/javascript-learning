@@ -15,4 +15,4 @@ My JavaScript learning journey from basics to advanced for webdev.
 - JS10 - Use of ASync/await and DOM
 - JS11 - Try and Catch
 - JS12 - Class and Structure
-- JS13 - 
+- JS13 - IIFE,Destructuring
