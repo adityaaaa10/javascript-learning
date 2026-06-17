@@ -14,5 +14,5 @@ My JavaScript learning journey from basics to advanced for webdev.
 - JS9 - Async/await and Fetch API
 - JS10 - Use of ASync/await and DOM
 - JS11 - Try and Catch
-- JS12 -
+- JS12 - Class and Consturctor
 - JS13 - IIFE,Destructuring
