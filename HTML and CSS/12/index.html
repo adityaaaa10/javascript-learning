@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        background-color: antiquewhite;
+        height: 50vh;
+        width: 40vw;
+    }
+
+    .box {
+        background-color: aquamarine;
+        height: 5vh;
+        width: 4vw;
+        /* transition-property: all;
+        transition-duration: 3s;
+        transition-timing-function: cubic-bezier(0, 0.88, 0.58, 1) ;
+        transition-delay: 1s; */
+
+        transition: all 3s ease-in-out 1s;
+    }
+
+    .translate {
+        transform: translateX(10vw) translateY(10vh) scale(2);
+        background-color: blue;
+    }
+
+    .container1 {
+        height: 80vh;
+        width: 60vw;
+        background-color: aqua;
+    }
+
+    .box1 {
+        height: 90px;
+        width: 70px;
+      
+       /* animation-name: adi;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse; */
+        animation: adi 2s linear 2s infinite alternate-reverse ;
+    }
+@keyframes adi {
+    from{
+background-color: brown;
+    }
+    to{
+        background-color: blue;
+transform: translateX(1000px);
+    }
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="box translate">
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container1">
+        <div class="box1 ">
+            box
+        </div>
+    </div>
+</body>
+
+</html>
