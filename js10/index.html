@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: green;
+            color: white;
+            font-size: 30px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <script>
+        let timer
+        const additem = async (a) => {
+            await randomdelay()
+            let div = document.createElement("div")
+            div.innerHTML = a
+            document.body.append(div)
+
+
+            clearInterval(timer)
+            let dotCount = 0
+            timer = setInterval(() => {
+                dotCount = (dotCount % 3) + 1
+                div.innerHTML = a + ".".repeat(dotCount)
+            }, 700)
+        }
+
+        const randomdelay = () => {
+            return new Promise((resolve, reject) => {
+                let timeout = 1 + 7 * Math.random()
+                setTimeout(() => {
+                    resolve()
+                }, timeout * 1000);
+            })
+        }
+
+
+
+        async function start() {
+
+
+
+            let a = ["Initialzing Hacking",
+                "Reading your files",
+                "Password Files detected",
+                "Sending all password and files to the server",
+                "Cleaning up..."
+            ]
+
+
+            for (const element of a) {
+                await additem(element)
+            }
+
+            clearInterval(timer)
+        }
+
+        start()
+
+    </script>
+</body>
+
+</html>
